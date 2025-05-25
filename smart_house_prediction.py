@@ -11,7 +11,7 @@ from sklearn.metrics import mean_squared_error, r2_score
 from sklearn.preprocessing import LabelEncoder
 
 # Load the dataset
-df = pd.read_csv("C:\\Users\\HP\\OneDrive\\Desktop\\BostonHousing_sample.csv")
+df = pd.read_csv("/Data/BostonHousing_sample.csv")
 
 # Exploratory Data Analysis
 print(df.describe())
